@@ -18,7 +18,7 @@
     font-size: 48px;
     font-weight: 800;
 }
-.anner-description{
+.banner-description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -53,7 +53,7 @@
     font-weight: 400;
 }
 .Why-Web-Development{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 946px;
     height: 1235px;
     margin: 0 auto;
@@ -63,8 +63,8 @@
 }
 .two-part-one{
     margin: 0 auto;
-    border: 1px solid red;
-    margin-top: 50px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,15 +89,31 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .two-part-two{
     margin: 0 auto;
-    border: 1px solid red;
-    margin-top: 50px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    gap: 150px;
+    gap: 50px;
+}
+.right-title-two{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.right-descriptio-two{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
 }
