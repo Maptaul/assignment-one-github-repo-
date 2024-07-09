@@ -1,6 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-.nav{
-    display: flex;
+/* banner style  */
+.banner{
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    height: 652px;
+    background-size: cover;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
+.banner-content{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+.anner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 11px;
+    width: 208px;
+    height: 66px;
+    background-color: black;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+/* shared style  */
+.section-tittle{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Why-Web-Development{
+    border: 1px solid red;
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: rgba(13, 19, 33, 0.02);
+    text-align: center;
+}
+.two-part-one{
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 150px;
+}
+.left-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+
