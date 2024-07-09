@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* banner style  */
 .banner{
     background-image: url(../assets/hero-bg.png);
@@ -32,7 +33,7 @@
     color: white;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     margin-top: 20px;
 
@@ -82,12 +83,21 @@
     font-size: 16px;
     font-weight: 400;
 }
-.btn-left{
+.btn-primary{
     width: 150px;
     height: 48px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-
 }
 
+.two-part-two{
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 150px;
+}
