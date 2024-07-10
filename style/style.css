@@ -121,7 +121,7 @@
 
 /* inspiration */
 .inspiration{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 946px;
         /* height: 1235px; */
         margin: 0 auto;
@@ -146,7 +146,7 @@
 }
 
 .my-current-target{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 946px;
     height: 463px;
     margin: 0 auto;
@@ -165,4 +165,53 @@
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+}
+
+.target-continer{
+    display: flex;
+    gap: 24px;
+}
+.skill-html{
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.skill-css{
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-java{
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill-tittle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary-2{
+    border: none;
+    background: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: left;
 }
